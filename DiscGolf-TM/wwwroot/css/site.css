@@ -1,0 +1,39 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-image {
+    width: 45%; /* Adjust as needed */
+    max-width: 200px; /* Adjust maximum width */
+}
+
+#output-box {
+    border: 1px solid #ccc; /* Add border */
+    padding: 10px; /* Add padding */
+    margin-top: 10px; /* Add margin */
+    width: 200px; /* Set width */
+}
